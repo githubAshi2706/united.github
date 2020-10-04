@@ -9,7 +9,7 @@ a{
 }
 .topnav li
 {
-	font: cursive;
+	font-family:Merienda One;
 }
 .topnav nav{
   display : flex;
