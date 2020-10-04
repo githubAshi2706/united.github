@@ -9,7 +9,7 @@ a{
 }
 .topnav li
 {
-	font-family: sansita;
+	font-family:cursive;
 }
 .topnav nav{
   display : flex;
@@ -157,7 +157,7 @@ hr.solid {
 }
 .about p:nth-child(3){
   color: black;
-  font-family:cookie;
+  font-family:merienda one;
       text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
 
   font-size: 30px;
