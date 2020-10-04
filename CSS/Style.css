@@ -192,7 +192,7 @@ hr.solid {
 }
 .social a:hover{
   color: #000000;
-  box-shadow: 2px 2px 12px rgb(0,0,0.3);
+  box-shadow: 2px 2px 2px rgb(0,0,0.3);
   transition: all ease 0.5s;
 }
 .container ul a{
