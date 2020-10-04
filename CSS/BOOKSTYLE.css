@@ -1,0 +1,76 @@
+
+.topnav
+{
+	width: 100%;
+	height: 60px;
+	background-color: #e9e9e9;
+}
+.topnav ul{
+	 list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.topnav li {
+	  float: left;
+	  font-family: Merienda One;
+}
+.topnav li a{
+	  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav nav{
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #3d2871;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+  padding: 0px 5%;
+  position: relative;
+}
+.logo
+{
+	margin-top: 5px
+}
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  font-weight: bold;
+}
+#btn{
+  width: 130px;
+  height:40px;
+  color: #ffffff;
+  border:dotted;
+  border-radius: 5px;
+  outline:none;
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 16px;
+ margin-top: 25px;
+ margin-left: 50px;
+  background-color:#FB7405;
+}
+button:active{
+  transform: scale(1.1);
+}
+#btn:hover{
+  color:#FFFFFF;
+  box-shadow: 2px 2px 12px rgb(0,0,0.3);
+  transition: all ease 0.5s;
+}

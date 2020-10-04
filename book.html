@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOOK TICKETS</title>
+  <script type="text/javascript" src="JS/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="CSS/BOOKSTYLE.css">
+  <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+
+  <style>
+    body{
+      background-image:url(images/ticket1.jpg);
+      background-repeat: no-repeat;
+            background-size: cover;
+    }
+  </style>
+</head>
+<body>
+	<div class="topnav">
+	<nav>
+      		<a href="index.html" class="logo"><img src="images/logo.jpg" alt="LOGO" height="55px"></a>
+	<ul>
+                 <li><a href="index.html" >Home</a></li>
+
+		<li><a href="index.html #now" >Now Showing</a></li>
+		<li><a href="index.html #come" >Comming Soon</a></li>
+		
+        <li><a href="#" class="active" style="color:red ;font-size:20px;" >Book Tickets</a></li>
+        <li><a href="team.html" target="_self">Team</a></li>
+
+		<li><a href="login.html" >Login/Sign Up</a></li>
+	</ul>
+</nav>
+	</div>
+<form name="form1">
+<div style="color:#FB7405;font-size: 20px;font-weight: bold;font-family: merienda one;margin-left: 150px;margin-top: 30px;"> Choose a movie: 
+<select name="movie" id="movie" style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;">
+ <option value="Unfolding of Earth">Unfolding of Earth</option>
+ <option value="Life In Outer Space">Life In Outer Space</option>
+ <option value="The Last Night">The Last Night</option>
+ <option value="The Journey After Apocalypse">The Journey After Apocalypse</option>
+  <option value="Love In The Apocalypse">Love In The Apocalypse</option>
+
+</select>
+</div>
+
+<div style="color:#FB7405;font-size: 20px;font-weight: bold;font-family: merienda one;margin-left: 150px;margin-top: 20px;"> Select Time: 
+<select name="time" id="time" style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;">
+ <option value="10 AM">10 AM</option>
+ <option value="11 AM">11 AM</option>
+ <option value="1 PM">1 PM</option>
+  <option value="1 PM">3 PM</option>
+ <option value="1 PM">4:45 PM PM</option>
+ <option value="1 PM">6:30 PM</option>
+
+</select>
+</div>
+<div style="color:#FB7405;font-size: 20px;font-weight: bold;font-family: merienda one;margin-left: 150px;margin-top: 20px;">
+ <label for="date">Date:</label>
+    <input type="Date" id="date" name="date"style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;"/>
+</div>
+
+<div style="color:#FB7405;font-size: 20px;font-weight: bold;font-family: merienda one;margin-left: 150px;margin-top: 20px;">
+ Name: <input type="text" name="textbox" id="textbox" value=""style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;" />
+</div>
+
+<div style="color:#FB7405;font-size: 20px;font-weight: bold;font-family: merienda one;margin-left: 150px;margin-top:20px;">Seat Type :
+ <label style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;"> <input type="radio" name="tickets" value="300" />Executive </label>
+ <label style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;"> <input type="radio" name="tickets" value="450" />Club</label>
+  <label style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;"> <input type="radio" name="tickets" value="500" />Gold</label>
+
+</div>
+
+<div style="color:#FB7405;font-size: 20px;font-weight: bold;font-family: merienda one;margin-left: 150px;margin-top: 20px;">
+ No. of Tickets : <input type="text" name="quantity" id="quantity" value="2" style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;" />
+</div>
+<div style="color:#FB7405;font-size: 20px;font-weight: bold;font-family: merienda one;margin-left: 150px;margin-top: 20px;">Select Combo :</br>
+ <label style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;" > 
+ 	<input type="radio"name="Combo" value="300" id="1" />400 ml Cold Drink + Popcorn Tub</label></br>
+ <label style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;"> 
+ 	<input type="radio" name="Combo" value="450" />Small Cold Drink + Small Popcorn</label></br>
+  <label style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;"> 
+  	<input type="radio" name="Combo" value="450"s/>Nachos + Popcorn</label></br>
+    <label style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;">
+    	<input type="radio" name="Combo" value="200" />Nachos + Cold Drink</label></br>
+        <label style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;">
+        	<input type="radio" name="Combo" value="0"/>None</label></br>
+
+</div>
+<div style="color:#FB7405;font-size: 20px;font-weight: bold;font-family: merienda one;margin-left: 150px;margin-top: 20px;">
+No. of Combos : <input type="text" name="quantityF" id="quantityF" value="1" style="border-size:2px box-shadow : 5px; font-size: 20px;font-family: monospace;"  /><br>
+ <input id="btn" class="active" type="button" value="Purchase" onclick="printPrice()" />
+</div>
+</form>
+<br><br>
+<p style="color:#FB7405;font-size: 20px;font-weight: bold;font-family: merienda one;margin-left: 150px;margin-top: 20px;">ORDER SUMMARY</p>
+<div id="inserts" style="color:#FB7405;font-size: 20px;font-weight: bold;font-family: merienda one;margin-left: 150px;margin-top: 30px;"> </div>
+</div>
+<br>
+<p style="text-align: center;">COPYRIGHT © 2020 HCC PVT LTD. ALL RIGHTS RESERVED.</p>
+<br>
+</body>
+</html>

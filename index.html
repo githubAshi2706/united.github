@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Holocust Cinemas</title>
+	<link rel="stylesheet"  href="CSS/Style.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="JS/script2.js"></script>
+  
+
+
+</head>
+<body >
+	<div style="  background-image: url(images/background.png); background-repeat: no-repeat;
+	background-size:cover;">
+	<div class="topnav">
+        <nav>
+      		<a href="#" class="logo"><img src="images/logo.JPG" alt="LOGO" height="55px"></a>
+      		<div class="Search">
+      		<i class="fa fa-search"></i>
+  			<input onkeyup="myFunction()" type="text" placeholder="Search movies.." id="searchbar" >
+  		</div>
+  		<form action="/action_page.php">
+  <label for="language">Language</label>
+  <select name="lang" id="language">
+    <option value="English">English</option>
+    <option value="Hindi">Hindi</option>
+    <option value="Bengali">Bengali</option>
+  </select>
+</form>
+<form action="/action_page.php">
+  <label for="city">City</label>
+  <select name="city" id="city">
+    <option value="kol">Kolkata</option>
+    <option value="del">Delhi-NCR</option>
+    <option value="Bang">Banglore</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Ahm">Ahmedabad</option>
+    <option value="Jai">Jaipur</option>
+  </select>
+</form>
+</nav>
+</div>
+
+<div class="lowernav">
+	<nav>
+		<ul>
+                 <li><a href="#" class="active" style="color:red ;font-size:20px;">Home</a></li>
+
+		<li><a href="#now" >Now Showing</a></li>
+		<li><a href="#come" >Comming Soon</a></li>
+        <li><a href="book.html" >Book Tickets</a></li>
+            <li><a href="team.html" target="_self">Team</a></li>
+
+
+		<li><a href="login.html" >Login/Sign Up</a></li>
+	</ul>
+</nav>
+	</div>
+	<div id="about-container" class="about-container">
+      	<img src="images/about.jpg" alt="Us">
+      	<div id="about" class="about">
+      		<p>About Us</p>
+      		<hr>
+      		<p>Hello,Users here we are the holocust family keeping the entertainment going on after the start of our new life, connecting the new world. It is our small cotribution to the new world.Hope you enjoy your experience with us.</p>
+          <br>
+          <a href="mailto:jashika27@gmail.com" target="-blank" style="color: black; margin-left:10px; font-size:25px;font-family: monospace;">jashika27@gmail.com</a>
+          <br>
+          <div c
+          lass="social">
+          <a href="https://www.facebook.com/ashika.jain.3158" target="-blank" ><i class="fa fa-facebook" style="font-size:30px;color:blue"></i></a>
+        <a href="https://www.instagram.com/jnashika/" target="-blank"><i class="fa fa-instagram"  style="font-size:30px;color:#fe0044"></i></a>
+        <a href="https://www.linkedin.com/in/ashika-jain-7860571a0/" target="-blank"><i class="fa fa-linkedin" style="font-size:30px;color:#405DE6"></i></a>
+
+      </div>
+      	</div>
+      </div>
+      <section id="now">
+            <p style="font-family: bibas kai; font-size: 30px; color: black;
+            font-weight: bold;text-align: center;">Now Showing</p>
+
+     <div class="container">
+     			<ul id="autoWidth" class="cs-hidden" style="display: flex;justify-content: space-between; overflow-x: scroll;overflow-y: hidden">
+     				  <li class="item-a">
+                <div class="box">
+	     <p class="movie1">The Journey After Apocalypse</p>
+	     <img src="images/movie1.jpg" class="model">
+	     <div class="details">
+	     	<p>10:05 AM 11:10 AM 1:00 PM 5:00 PM 8:30 PM 10:30 PM</p>
+	     </div>
+	</div>
+</li>
+  <li class="item-a">
+  	<div class="box">
+		<p class="movie1">Love in Apocalypse</p>
+		<img class="model" src="images/movie7.jpg">
+		<div class="details">
+		
+		<p>10:55 AM 11:30 AM 1:30 PM 5:40 PM 8:50 PM 10:55 PM</p>
+		</div>
+		
+		</div>
+		</li>
+<li class="item-a">
+    <div class="box">
+    <p class="movie1">The Last Night</p>
+    <img class="model" src="images/movie3.jpg">
+    <div class="details">
+    
+    <p>11:55 AM 12:30 AM 2:30 PM 6:40 PM 9:50 PM 11:55 PM</p>
+    </div>
+    
+    </div>
+    </li>
+
+<li class="item-a">
+    <div class="box">
+    <p class="movie1">Life In Outer Space</p>
+    <img class="model" src="images/movie4.jpg">
+    <div class="details">
+    
+    <p>9:55 AM 11:45 AM 3:30 PM 4:40 PM 10:50 PM 11:25 PM </p>
+    </div>
+    
+    </div>
+    </li>
+
+<li class="item-a">
+    <div class="box">
+    <p class="movie1">Unfolding of Earth</p>
+    <img class="model" src="images/movie5.jpg">
+    <div class="details">
+    
+    <p>9:35 AM 11:30 AM 6:30 PM 7:40 PM 9:50 PM 11:45 PM</p>
+    </div>
+    
+    </div>
+    </li>
+
+</ul>
+</section>
+
+
+      <section id="come">
+            <p style="font-family: bibas kai; font-size: 30px; color: black;
+            font-weight: bold;text-align: center;">Coming Soon</p>
+
+     <div class="container">
+          <ul id="autoWidth" class="cs-hidden" style="display: flex;justify-content: space-between; overflow-x: scroll;overflow-y: hidden">
+              <li class="item-a">
+                <div class="box">
+       <p class="movie1">Life After Breakdown</p>
+       <img src="images/movie2.jpg" class="model">
+       <div class="details">
+        <p>Coming soon..</p>
+       </div>
+  </div>
+</li>
+  <li class="item-a">
+    <div class="box">
+    <p class="movie1">The dead world</p>
+    <img class="model" src="images/movie8.jpg">
+    <div class="details">
+    
+        <p>Coming soon..</p>
+    </div>
+    
+    </div>
+    </li>
+<li class="item-a">
+    <div class="box">
+    <p class="movie1">Survivors Of Aplocalypse</p>
+    <img class="model" src="images/movie6.jpg">
+    <div class="details">
+    
+        <p>Coming soon..</p>
+    </div>
+    
+    </div>
+    </li>
+
+<li class="item-a">
+    <div class="box">
+    <p class="movie1">Apocalypse : The Evil</p>
+    <img class="model" src="images/movie10.jpg">
+    <div class="details">
+    
+        <p>Coming soon..</p>
+    </div>
+    
+    </div>
+    </li>
+
+<li class="item-a">
+    <div class="box">
+    <p class="movie1">Surviving Zombies</p>
+    <img class="model" src="images/movie9.jpg">
+    <div class="details">
+    
+        <p>Coming soon..</p>
+    </div>
+    
+    </div>
+    </li>
+
+</ul>
+</section>
+</div>
+</div>
+<br>
+<p style="text-align: center;">COPYRIGHT © 2020 HCC PVT LTD. ALL RIGHTS RESERVED.</p>
+<br>
+</body>
+</html>
